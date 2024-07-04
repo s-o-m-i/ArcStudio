@@ -1,0 +1,57 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#NavButton .button-overlay-gradient {
+  transition: opacity 0.5s;
+}
+#NavButton .button-text {
+  transition: color 0.5s;
+}
+#NavButton:hover .button-text {
+  color: #fff !important;
+}
+#NavButton:hover .button-overlay-gradient {
+  opacity: 1 !important;
+}
+.nav-blur {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #e0e0e0;
+}
+
+.swiper-pagination-bullet-active {
+  width: 24px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #f66b65;
+}
+
+#video-1 video {
+  position: static !important;
+  height: auto !important;
+}
+
+#video-2 video {
+  position: static !important;
+  height: auto !important;
+}
+
+@media only screen and (min-width: 992px) {
+  .swiper-pagination {
+    display: none;
+  }
+}
+
